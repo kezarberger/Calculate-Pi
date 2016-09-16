@@ -25,4 +25,4 @@ import math
 terms = ("I will estimate pi. How many terms should I use? ")
 #decimal = input("How many decimal places should I use in the result? ")
 termlist = list(range(100))
-termlist = [
+termlist = [(x*2+1)*(-1.0)**x for x in termlist]
