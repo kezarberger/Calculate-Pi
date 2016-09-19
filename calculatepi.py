@@ -22,13 +22,14 @@ Note: remember that the printed value of pi will be an estimate!
 
 """
 import math
-terms = ("I will estimate pi. How many terms should I use? ")
-#decimal = input("How many decimal places should I use in the result? ")
-termlist = list(range(100))
-termlist = [(x*2+1)*(-1.0)**x for x in termlist]
-termlist = (1/xfor x in termlist)
-terms = int(terms)
-termlist = [termlist 0:terms]
-termlistvalue = sum(termlist)
-pi = 4*(termlist value +((-1)/(2*terms+1))
+terms = input("I will estimate pi. How many terms should I use? ")
+decimal = input("How many decimal places should I use in the result? ")
 decimal = int(decimal)
+termlist = list(range(10000))
+termlist = [(x*2+1)*(-1.0)**x for x in termlist]
+termlist = [1/x for x in termlist]
+terms = int(terms)
+termlist = termlist [0: terms]
+termlistvalue = sum(termlist)
+pi = 4*termlistvalue
+print("The aproxamite value of pi is {0}".format(round(pi, decimal)))
