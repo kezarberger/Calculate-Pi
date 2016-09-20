@@ -1,7 +1,7 @@
 """
 calculatepi.py
-Author: <your name here>
-Credit: <list sources used, if any>
+Author: kezar
+Credit: kotz
 Assignment:
 
 Write and submit a Python program that computes an approximate value of π by calculating the following sum:
@@ -32,4 +32,4 @@ terms = int(terms)
 termlist = termlist [0: terms]
 termlistvalue = sum(termlist)
 pi = 4*termlistvalue
-print("The aproxamite value of pi is {0}".format(round(pi, decimal)))
+print("The approximate value of pi is {0}".format(round(pi, decimal)))
